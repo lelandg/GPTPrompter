@@ -1,0 +1,44 @@
+{
+  "role": "Coding assistant",
+  "custom_role": "",
+  "task": "Refactor to async and update call sites. Keep tests green.",
+  "audience": "Senior engineers",
+  "constraints": "Be explicit about public APIs\nNo breaking changes unless justified",
+  "delimiters": "triple backticks",
+  "output_format": "Markdown",
+  "json_schema": "",
+  "additional_context": "",
+  "eagerness": "Medium",
+  "reasoning_effort": "Medium",
+  "include_tool_preamble": true,
+  "include_persistence": true,
+  "include_progress_narration": false,
+  "include_tool_disambiguation": false,
+  "tool_context": "",
+  "coding_mode": true,
+  "include_planning": true,
+  "planning_snippet": "",
+  "include_apply_patch_instr": true,
+  "include_tool_defs": true,
+  "coding_notes": "Project uses Trio; prefer nursery patterns.",
+  "verbosity": "Medium",
+  "verbosity_override": "",
+  "markdown_guidance": true,
+  "ask_brief_rationale": true,
+  "meta_mode": false,
+  "meta_prompt": "",
+  "meta_desired": "",
+  "meta_undesired": "",
+  "examples": [
+    [
+      "User asks for refactor plan",
+      "Assistant returns steps then patch."
+    ]
+  ],
+  "variables": {
+    "LANG": "Python",
+    "FRAMEWORK": "Trio"
+  },
+  "include_swe_bench": true,
+  "include_retail_min_reason": false
+}
