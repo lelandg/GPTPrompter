@@ -1,10 +1,10 @@
 # 🧩 GPT‑5 Prompt Designer (PySide6) — User Guide
 
 > A desktop GUI to assemble clean, powerful prompts for GPT‑5.  
-> Output is plain text you can paste directly into ChatGPT (GPT‑5) or your API client.
-> Original version was generated in one prompt using my `Code General` GPT project. (I'll share that.)
-> Second prompt generated this file when I asked for a `comprehensive user manual`. It also gave me the files in [presets](Docs/presets)
-
+> Output is plain text you can paste directly into ChatGPT (GPT‑5) or your API client.  
+> Original version was generated in one prompt using my **Code General** GPT project. (I'll share that.)  
+> Second prompt generated this file when I asked for a comprehensive user manual. It also gave me the files
+> in [presets](Docs/presets)
 ---
 
 ## 🧭 Overview
